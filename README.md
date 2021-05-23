@@ -22,18 +22,17 @@ caractères.
 de séquence dans la chaîne (c'est-à-dire son nombre d'occurrences).
 - Le programme principal appelle la fonction saisie pour la chaîne et pour la séquence et affiche le résultat.
 
-**Exemple d'affichage :
-Chaîne : attgcaatggtggtacatg
-Séquence : ca
-Il y a 10.53 % de "ca" dans votre chaîne.
-**
+**Exemple d'affichage :**
+- Chaîne : attgcaatggtggtacatg
+- Séquence : ca
+- Il y a 10.53 % de "ca" dans votre chaîne.
 
-**Exercice 3 :
-**
+
+**Exercice 3 :**
 - Saisir un entier entre 1 et 3999. L'afficher en nombre romain.
 
-**Exercice 4 :
-**
+**Exercice 4 :**
+
 Généralisation des deux questions précédentes. L'utilisateur saisit deux entrées, d'une part le nombre de
 dés, nbdnbd (que l'on limitera pratiquement à 10) et, d'autre part la somme, ss, comprise
 entre nbdnbd et 6.nbd6.nbd. Le programme calcule et affiche le nombre de façons de faire ss avec
