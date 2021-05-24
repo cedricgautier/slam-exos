@@ -1,12 +1,10 @@
 def valide (characters):
-    characters = input("Enter any alphabetical character here :")
     for c in characters:
         if (not(c in charactersAccepted)): 
             return False
     return True
 
-def saisie ():
-    characters = input("Enter any alphabetical character here :")
+def saisie (characters):
     if valide(characters):
         return characters
     return "Your characters invalid"
@@ -26,10 +24,12 @@ entry = input(
     "Enter 'Valide' or 'Saisie' or 'Proportion' to choose a function. \nWrite here : ")
 
 if entry == 'Valide':
-    print(valide())
+    characters = input("Enter any alphabetical character here :")
+    print(valide(characters))
 
 elif entry == 'Saisie':
-    print(saisie())
+    characters = input("Enter any alphabetical character here :")
+    print(saisie(characters))
     
 elif entry == 'Proportion':
     proportion()
