@@ -1,4 +1,7 @@
 def main ():
+    """
+    The function takes an integer as an input and returns all prime numbers between 0 and the integer.
+    """
     entry = int(input("Enter the number you want here : "))
     prime = False #prime is defined as false and will change if entry number is a prime number. 
     

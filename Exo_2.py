@@ -1,10 +1,24 @@
 def valide (characters):
+    """
+    The function valide takes a string as an argument and returns True if the string contains only
+    characters from the list charactersAccepted
+    
+    :param characters: a string of characters to be validated
+    :return: a boolean value.
+    """
     for c in characters:
         if (not(c in charactersAccepted)): 
             return False
     return True
 
 def saisie (characters):
+    """
+    The function takes a string as an argument and returns the string if it is valid. Otherwise, it
+    returns an error message
+    
+    :param characters: The string you want to test
+    :return: The characters that the user entered.
+    """
     if valide(characters):
         return characters
     return "Your characters invalid"
